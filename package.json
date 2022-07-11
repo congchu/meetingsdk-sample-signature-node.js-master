@@ -3,6 +3,9 @@
   "version": "2.3.0",
   "description": "Generate a signature to Start and Join Meetings and Webinars with the Zoom Meeting SDKs.",
   "main": "index.js",
+  "engines": {
+    "node": "16.14.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
@@ -11,7 +14,6 @@
   "author": "Tommy Gaessler",
   "license": "ISC",
   "dependencies": {
-    "node": "^16.14.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
